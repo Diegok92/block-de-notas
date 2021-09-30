@@ -1,10 +1,22 @@
 [
-  {
-    "titulo": "limpiar dpto",
-    "estado": "pendiente"
-  },
-  {
-    "titulo": "aprender Js",
-    "estado": "En Progreso"
-  }
+    {
+        "titulo": "limpiar dpto",
+        "estado": "pendiente"
+    },
+    {
+        "titulo": "aprender Js",
+        "estado": "En Progreso"
+    },
+    {
+        "titulo": "lavar Auto",
+        "estado": "pendiente"
+    },
+    {
+        "titulo": "cocinar",
+        "estado": "en proceso"
+    },
+    {
+        "titulo": "saludar mundo",
+        "estado": "en proceso"
+    }
 ]

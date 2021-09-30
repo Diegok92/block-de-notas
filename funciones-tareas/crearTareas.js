@@ -9,7 +9,7 @@ function crearTarea(tarea, estado, tareasHastaAhora) {
   const arrayJson = JSON.stringify(tareasHastaAhora, null, 4); //null no se, y el 4 para tabular .json
   console.log(arrayJson);
   const fs = require("fs");
-  fs.writeFileSync("../tareas.json", arrayJson);
+  fs.writeFileSync("./tareas.json", arrayJson);
 }
 
 module.exports = crearTarea;

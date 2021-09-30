@@ -8,15 +8,7 @@
         "estado": "En Progreso"
     },
     {
-        "titulo": "lavar Auto",
+        "titulo": "repasar git",
         "estado": "pendiente"
-    },
-    {
-        "titulo": "cocinar",
-        "estado": "en proceso"
-    },
-    {
-        "titulo": "saludar mundo",
-        "estado": "en proceso"
     }
 ]

@@ -10,7 +10,7 @@ const tareas = JSON.parse(tareasJSON);
 
 const listarTareas = require("./funciones-tareas/listarTareas");
 const crearTarea = require("./funciones-tareas/crearTareas");
-
+const filtrarPorEstado = require("./funciones-tareas/filtrarPorEstado");
 //ahora leo por consola y actuo en consecuencia:
 //"node app.js crear "limpiar baño" "en proceso""
 // [ 0     1       2         3             4]
@@ -21,6 +21,9 @@ switch (action) {
     break;
   case "listar":
     listarTareas(tareas);
+    break;
+  case "filtrar":
+    filtrarPorEstado(tareas, process.argv[3]); //node app.js "filtrar" "pendiente"
     break;
   case undefined:
     console.log("Atención - Tenes q escribir una accion");
